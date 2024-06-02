@@ -1,0 +1,12 @@
+#hero {
+  background-image: url(Photo/Hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  text-align: right;
+  height: 100vh;
+}
+#button1 {
+  background-color: #e9c46a;
+}
