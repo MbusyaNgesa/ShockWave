@@ -1,5 +1,5 @@
 #hero {
-  background-image: url(Photo/Hero.jpg);
+  background-image: url(Photo/Airpods.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -8,5 +8,25 @@
   height: 100vh;
 }
 #button1 {
+  background-color: #e9c46a;
+}
+#slider {
+  background-image: url(Photo/Hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+#oraimo {
+  background-color: #000;
+}
+
+#apple {
+  background-color: #000;
+}
+#samsung {
+  background-color: #e9c46a;
+}
+#beats {
   background-color: #e9c46a;
 }
