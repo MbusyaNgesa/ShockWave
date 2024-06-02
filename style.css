@@ -1,5 +1,5 @@
 #hero {
-  background-image: url(Photo/Airpods.jpg);
+  background-image: url(Photo/Two.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -29,4 +29,10 @@
 }
 #beats {
   background-color: #e9c46a;
+}
+.white {
+  height: 530px;
+}
+.beats {
+  color: #e9c46a;
 }
