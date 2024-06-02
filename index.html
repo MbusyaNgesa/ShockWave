@@ -21,7 +21,7 @@
     <!--Navbar Section-->
 
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark p">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-2 fixed-top">
         <div class="container">
           <a href="#" class="navbar-brand text-light">Shockwave</a>
           <button
@@ -35,22 +35,209 @@
           <div class="collapse navbar-collapse text-lg-light" id="navmenu">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
+                <a href="#" class="shop nav-link">Home</a>
+              </li>
+              <li class="nav-item">
                 <a href="#brands" class="nav-link text-light">Brands</a>
               </li>
               <li class="nav-item">
-                <a href="#shop" class="nav-link text-secondary">Shop</a>
+                <a href="#shop" class="nav-link shop">Shop</a>
               </li>
               <li class="nav-item">
                 <a href="#offers" class="nav-link text-light">Offers</a>
               </li>
               <li class="nav-item">
-                <a href="#contact" class="nav-link text-secondary">Contact</a>
+                <a href="#contact" class="nav-link shop">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
+
+    <!--Hero Section-->
+    <section class="pt-5" id="home">
+      <div class="container">
+        <div
+          id="hero"
+          class="d-flex text-center text-dark justify-content-center align-items-center"
+        >
+          <div class="py-5 text-light" id="text">
+            <h1>Welcome to our fine establishment</h1>
+            <a href="" class="btn" id="button1">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Brands Section-->
+    <section class="pt-5" id="brands">
+      <div class="container bg-secondary">
+        <div class="" id="slider"></div>
+        <div
+          class="text-light d-flex align-items-center justify-content-center"
+          id="brand"
+        >
+          <a href="" class="btn m-1 text-light" id="apple">Apple</a>
+          <a href="" class="btn m-1" id="samsung">Samsung</a>
+          <a href="" class="btn m-1 text-light lead" id="oraimo">Oraimo</a>
+          <a href="" class="btn m-1" id="beats">Beats </a>
+        </div>
+      </div>
+    </section>
+
+    <!--Shop Section-->
+    <section class="pt-5 p-md-5" id="shop">
+      <div class="container">
+        <h1 class="text-center mb-3"><span class="shop">Shop</span> Now</h1>
+        <div class="row g-4">
+          <!--Product 1-->
+          <div class="col-m-6 col-lg-4 col-sm-12">
+            <div class="card mb-3">
+              <img src="Photo/Orangr.jpg" alt="invalid" />
+              <div class="card-body text-md-center">
+                <h2 class="text-dark">Beats Solo Pro</h2>
+                <p>Has the best surround system available</p>
+                <a href=""><i class="beats bi bi-cart3 h2"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!--Product 2-->
+          <div class="col-md-6 col-lg-4 col-sm-12">
+            <div class="card headphones">
+              <img src="Photo/Purple.jpg" alt="valid" class="white" />
+              <div class="middle">
+                <div class="text">
+                  <p class="text-warning">Noise cancelling buds</p>
+                </div>
+              </div>
+              <div class="card-body text-md-center">
+                <h2 class="text-dark">Apple Line-4</h2>
+
+                <a href=""><i class="beats bi bi-cart3 h2"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!--Produt 3-->
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img
+                src="Photo/Apple AirPods Max Wireless Over-Ear Headphones, Active Noise Cancelling, Transparency Mode, Personal.jpg"
+                alt="invalid"
+                class="white"
+              />
+              <div class="middle">
+                <div class="text">
+                  <p class="text-warning">
+                    Get best immersiveness with these on
+                  </p>
+                </div>
+              </div>
+              <div class="card-body text-md-center">
+                <h2>Oraimo Salazar</h2>
+                <p>Get best immersiveness with these on</p>
+                <a href=""><i class="bi bi-cart3 h2 beats"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!--Product 4-->
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="Photo/Red.jpg" alt="invalid" class="white" />
+              <div class="card-body text-md-center">
+                <h2>Airpods Pro</h2>
+                <p>Get best immersiveness with these on</p>
+                <a href=""><i class="bi bi-cart3 h2 beats"></i></a>
+              </div>
+            </div>
+          </div>
+          <!--Product 5-->
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="Photo/Beats.jpg" alt="invalid" class="white" />
+              <div class="card-body text-md-center">
+                <h2>Beats Prime</h2>
+                <p>Get best immersiveness with these on</p>
+                <a href=""><i class="bi bi-cart3 h2 beats"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!--Product 6-->
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="Photo/Black.jpg" alt="invalid" class="white" />
+              <div class="card-body text-md-center">
+                <h2>Edifier Max</h2>
+                <p>Get best immersiveness with these on</p>
+                <a href=""><i class="bi bi-cart3 h2 beats"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Offers Section-->
+    <section class="pt-5 bg-dark" id="offers">
+      <div class="container">
+        <h1 class="text-center shop">Offers</h1>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6 p-4 justify-content-between">
+            <img src="Photo/Offer.jpeg" alt="invalid" class="w-100" />
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 p-4">
+            <h3 class="text-light">Subscribe</h3>
+            <div class="input-group news-input">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Enter your email"
+              />
+              <button class="submit btn h1" type="button">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact Section-->
+    <section classs="p-4 pt-5 " id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4 m-1">
+            <h4 class="shop"><u>Customer Care</u></h4>
+            <a href="" class="nav-link"
+              ><i class="bi bi-telephone m-1"> 0794 843866</i></a
+            >
+            <a href="" class="nav-link p-2"
+              ><i class="bi bi-envelope"> shockwave@gmail.com</i></a
+            >
+          </div>
+          <div class="col-sm-12 col-lg-4 col-md-6">
+            <h3 class="shop"><u>Information</u></h3>
+            <ul class="navbar-nav">
+              <li><a href="" class="nav-link">About Us</a></li>
+              <li><a href="" class="nav-link">Warranty</a></li>
+              <li><a href="" class="nav-link">Terms & Condition</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-lg-4 col-md-4">
+            <h3 class="shop"><u>Socials</u></h3>
+            <a href=""><i class="bi bi-whatsapp m-1 icons"></i></a>
+            <a href=""><i class="bi bi-instagram m-1 icons"></i></a>
+            <a href=""><i class="bi bi-facebook m-1 icons"></i></a>
+            <a href=""><i class="bi bi-twitter m-1 icons"></i></a>
+          </div>
+        </div>
+        <div>
+          <h3 class="lead shop text-center p-4">Copyrights @ Shockwave 2024</h3>
+        </div>
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
